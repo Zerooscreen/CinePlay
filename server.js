@@ -23,9 +23,9 @@ const {
 } = require('./lib/render');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
-const SITE_URL = 'https://cineplay.up.railway.app';
+const SITE_URL = 'https://cineplaybr.up.railway.app';
 
 app.use(express.static(path.join(__dirname, 'public')));
 
